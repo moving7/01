@@ -1,0 +1,41 @@
+/*reset css*/
+*{margin:0;padding:0;list-style:none;border:none;}
+body{height:auto;font-family:'microsoft yahei';}
+.izl-rmenu{
+	       margin-right: 0;
+	       width: 106px;
+	       position: fixed;
+	       left: 2px;
+	       top: 65%;
+	       -webkit-box-shadow: #DDD 0px 1px 5px;
+	       -moz-box-shadow: #DDD 0px 1px 5px;
+	       box-shadow: #DDD 0px 1px 5px;
+	       z-index:999;
+}
+.izl-rmenu .consult{    
+	background-image: url(../images/consult_icon.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    height: 165px;
+    width:106px;
+}
+
+.izl-rmenu .btn_top {
+    background-image: url(../images/float_top.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    height: 39px;
+    width: 106px;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+.izl-rmenu .btn_top:hover {
+	background-image: url(../images/float_top.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.closeright{position: absolute;right:6px;top:10px;text-decoration:none;}

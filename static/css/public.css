@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+html, body, p, b, dl, dd, table, td, th, input, button, textarea, xmp, pre, img, form, div, ul, ol, li, h1, h2, h3, h4, h5, h6{margin:0;padding:0}
+h1, h2, h3, h4, h5, h6, pre, address, caption, cite, code, dfn, em, th, var, b, i {font-style:normal;font-weight:normal;font-size:1em}
+body,div,img,ul,li,h1,h2,h3,p,form,input{margin:0;padding:0}
+img{border:none;vertical-align:bottom}
+body{width:100%;height:auto;font:12px "微软雅黑";line-height:24px;color:#000;}
+li{list-style:none}
+li a{color:#000}
+a{color:#000;text-decoration:none}
+a:hover{color:#cc0000}
+.left{ float:left}
+.right{ float:right}
+.cls{ clear:both}
+.m_top{ margin-top:10px; padding:5px;}
+.red{ color:#c00;}
+
+
